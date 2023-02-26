@@ -1,0 +1,9 @@
+[smtp]
+enable = false      # smtp服务启动开关，默认为false,，启动请改为true
+server = ""         # smtp服务器地址，如smtp.163.com
+port = 25           # smtp服务器端口
+sender = ""         # 发件人账号，如12345678#163.com
+password = ""       # 发件人密码，详见服务提供商文档
+receiver = ""       # 收件人账号，如87654321#163.com
+name_sender = ""    # 发件人名称，对人类友好的称呼，如管理员
+name_receiver = ""  # 收件人名称，对人类友好的称呼，如系统用户
